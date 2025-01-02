@@ -1,0 +1,21 @@
+{
+  "name": "@diajelovic/yc-vm-deploy-container-action",
+  "version": "0.0.1",
+  "description": "",
+  "main": "/dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "npx ncc build src/index.js -o dist --license licenses.txt"
+  },
+  "keywords": [],
+  "author": "Andrey Borha (diajelovic@gmail.com)",
+  "homepage": "https://github.com/diajelovic/yc-vm-deploy-container-action",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.0"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.38.3"
+  }
+}
